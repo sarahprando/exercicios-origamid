@@ -1,18 +1,23 @@
-   * {
-       font-family: 'Fira Sans', sans-serif;
-       background-color: #E5E5E5;
-       margin: 0;
-       padding: 0;
-   }
-
-   .navbar ul li a {
+   body {
+       font-family: 'Fira Sans', Arial, sans-serif;
        color: #141414;
-       font-size: 18px;
-       margin-left: 40px;
-       text-decoration: none;
-   }
-   
-   .logo {
-    max-width: 80px;
+       margin: 0px;
    }
 
+   h1,
+   h2,
+   h3,
+   p {
+       margin: 0px;
+   }
+
+   ul {
+       margin: 0px;
+       padding: 0px;
+       list-style: none;
+   }
+
+   img {
+       max-width: 100%;
+       display: block;
+   }
