@@ -1,0 +1,18 @@
+   * {
+       font-family: 'Fira Sans', sans-serif;
+       background-color: #E5E5E5;
+       margin: 0;
+       padding: 0;
+   }
+
+   .navbar ul li a {
+       color: #141414;
+       font-size: 18px;
+       margin-left: 40px;
+       text-decoration: none;
+   }
+   
+   .logo {
+    max-width: 80px;
+   }
+

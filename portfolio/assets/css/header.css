@@ -1,0 +1,10 @@
+.navbar ul li a {
+    color: #141414;
+    font-size: 18px;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.logo {
+ max-width: 80px;
+}
