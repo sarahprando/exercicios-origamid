@@ -5,7 +5,7 @@ header {
     left: 0;
     z-index: 1030;
     box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255, 90%);
 }
 
 .header {
@@ -16,7 +16,6 @@ header {
     margin: 0 auto;
     max-width: 1200px;
 }
-
 
 .header-navbar {
     display: flex;
@@ -41,37 +40,23 @@ header {
     max-width: 50px;
 }
 
-.avatar-mobile {
-    display: none;
-}
-
 @media (max-width: 800px) {
     .header {
-        padding: 10px;
-        justify-content: space-around;
-        box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+        padding: 3px;
     }
 
     #itens {
-        position: fixed;
         width: 100%;
-        background: rgb(20, 20, 20, 95%);
-        bottom: 0;
-        box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.1);
     }
 
     .header-navbar {
         display: flex;
-        gap: 10px;
+        gap: 5px;
         padding: 15px 0px;
-        align-items: center;
     }
 
-    .header-navbar a {
-        padding: 5px;
-        border: solid 1px #a385f6;
-        border-radius: 5px;
-        color: #fff;
-        background: transparent;
+    .header img {
+        display: none;
     }
+
 }

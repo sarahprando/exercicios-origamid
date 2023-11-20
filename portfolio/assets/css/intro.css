@@ -1,0 +1,9 @@
+main {
+    display: flex;
+}
+
+.intro {
+    display: grid;
+    align-self: center;
+    height: 100%;
+}
