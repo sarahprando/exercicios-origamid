@@ -7,12 +7,14 @@
     max-width: 1200px;
 }
 
+
 .header-navbar {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
 }
+
 
 .header-navbar a {
     font-size: 1.125rem;
@@ -22,6 +24,7 @@
     color: #141414;
     display: block;
 }
+
 
 .header img {
     max-width: 65px;
@@ -35,6 +38,19 @@
 
     #itens {
         display: none;
+        position: fixed;
+        background: #fff;
+        bottom: 75%;
+    }
+
+    .header-navbar {
+        display: flex;
+        gap: 15px;
+        padding: 5px;
+    }
+
+    .header-navbar a {
+        padding: 0;
     }
 
     .material-symbols-rounded {
