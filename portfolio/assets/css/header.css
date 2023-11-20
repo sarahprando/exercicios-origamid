@@ -30,6 +30,10 @@
     max-width: 65px;
 }
 
+span.material-symbols-rounded {
+    display: none;
+}
+
 @media (max-width: 800px) {
     .header {
         padding: 20px;
@@ -57,7 +61,8 @@
         padding: 0;
     }
 
-    .material-symbols-rounded {
+    span.material-symbols-rounded {
+        display: block;
         color: #a385f6;
         border: solid 2px #a385f6;
         border-radius: 10px;
