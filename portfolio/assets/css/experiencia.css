@@ -1,0 +1,11 @@
+.experiencia a {
+    color: #fff;
+    background: #a385f6;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.experiencia a:hover {
+    background: #701CDA;
+}
