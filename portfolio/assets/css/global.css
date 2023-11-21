@@ -30,6 +30,16 @@
     max-width: 4ch;
    }
 
+   ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #705a4365;
+    border: 3px solid #e0e0e0;
+  }
+
    @media (max-width: 800px) {
     .subtitulo {
         font-size: 3rem;
