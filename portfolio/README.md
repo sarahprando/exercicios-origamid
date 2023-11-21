@@ -7,5 +7,7 @@
 <br>
 <p align="center"><a href="https://sarahprando.github.io/exercicios-origamid/portfolio/portfolio.html">Clique aqui.</a></p>
 <br>
-<img alt="print" src="assets/img/favicon.png">
+<div style="display: inline_block" align="center"><br>
+  <img height="200" width="200" src="assets/img/favicon.png">
+</div>
 
