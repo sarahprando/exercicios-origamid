@@ -1,18 +1,32 @@
+/* ---- general ---- */
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1,
+ul,
+p {
+    margin: 0px;
+}
+
 ul {
-    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* ---- header ---- */
 
 .header-bg {
     background: #000;
@@ -25,6 +39,7 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    box-sizing: border-box;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
@@ -58,7 +73,77 @@ a {
     width: 100%;
 }
 
+/* ---- intro ---- */
+
+.intro-bg {
+    background: #000;
+    color: #fff;
+    box-shadow: inset 0 -120px #fff;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 40px;
+    box-sizing: border-box;
+    max-width: 1300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-container {
+    align-self: end;
+    padding-bottom: 200px;
+}
+
+.intro h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;
+}
+
+.intro h1 span {
+    color: #ffbb00;
+}
+
+.intro p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.intro a {
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.33;
+    font-family: poppins;
+    color: #320;
+    background: linear-gradient(#FFBF00, #F2A50C);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.intro a:hover {
+    background: linear-gradient(#FFB60d, #e59317);
+}
+
+.intro img {
+    object-fit: cover;
+    height: 100%;
+    border-radius: 4px;
+}
+
+/* ---- media querie 800px ---- */
+
 @media (max-width: 800px) {
+
+    /* ---- header mobile ---- */
+
     .nav-header {
         gap: 20px;
     }
@@ -78,7 +163,12 @@ a {
     }
 }
 
+/* ---- media querie 600px ---- */
+
 @media (max-width: 600px) {
+
+    /* ---- header mobile ---- */
+
     .nav-header {
         gap: 12px;
     }
