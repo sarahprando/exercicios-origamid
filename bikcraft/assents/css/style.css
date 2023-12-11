@@ -15,3 +15,7 @@
 /* ---- home ---- */
 
 @import url(../css/home/intro.css);
+
+/* ---- bicicletas ---- */
+
+@import url(../css/bike/bike-list.css);
