@@ -8,6 +8,8 @@
 
 @import url(../css/global/header.css);
 
+@import url(../css/global/footer.css);
+
 /* ---- components ---- */ 
 
 @import url(../css/utilities/components.css);
@@ -20,6 +22,12 @@
 
 @import url(../css/home/partners.css);
 
+@import url(../css/home/reviews.css);
+
 /* ---- bicicletas ---- */
 
 @import url(../css/bike/bike-list.css);
+
+/* ---- insurance ---- */
+
+@import url(../css/insurance/insurance.css);
