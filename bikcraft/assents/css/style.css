@@ -16,6 +16,8 @@
 
 @import url(../css/home/intro.css);
 
+@import url(../css/home/tech.css);
+
 /* ---- bicicletas ---- */
 
 @import url(../css/bike/bike-list.css);
