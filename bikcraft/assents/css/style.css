@@ -1,1 +1,17 @@
-@import url(../css/home.css);
+/* ---- global ---- */
+
+@import url(../css/global/global.css);
+
+@import url(../css/utilities/typography.css);
+
+@import url(../css/utilities/colors.css);
+
+@import url(../css/global/header.css);
+
+/* ---- components ---- */ 
+
+@import url(../css/utilities/components.css);
+
+/* ---- home ---- */
+
+@import url(../css/home/intro.css);

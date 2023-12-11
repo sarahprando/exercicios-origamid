@@ -1,0 +1,27 @@
+/* ---- button ---- */
+
+.btn {
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: var(--cor-p5);
+    background: linear-gradient(#FFBF00, #F2A50C);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    font: 600 1.125rem/1.35 'Poppins', sans-serif;
+}
+
+.btn:hover {
+    background: linear-gradient(#FFB60d, #e59317);
+}
+
+
+/* ---- media querie 600px ---- */
+
+@media (max-width: 600px) {
+
+    .btn {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
