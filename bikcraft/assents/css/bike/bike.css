@@ -1,8 +1,8 @@
-.bike-bg {
+.bikes-bg {
     background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11) 0%);
 }
 
-.bike {
+.bikes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
@@ -10,15 +10,15 @@
     padding-bottom: 60px;
 }
 
-.bike-img {
+.bikes-img {
     display: grid;
 }
 
-.bike-img img {
+.bikes-img img {
     grid-area: 1/1;
 }
 
-.bike-img span {
+.bikes-img span {
     grid-area: 1/1;
     place-self: start end;
     margin-top: 20px;
@@ -28,23 +28,23 @@
     border-radius: 4px 0 0 4px;
 }
 
-.bike-content {
+.bikes-content {
     display: grid;
     grid-template-columns: 1fr auto;
     align-content: start;
 }
 
-.bike h2,
-.bike p {
+.bikes h2,
+.bikes p {
     grid-column: 1/-1;
 }
 
 
-.bike h2 {
+.bikes h2 {
     margin-bottom: 20px;
 }
 
-.bike h2::before {
+.bikes h2::before {
     content: "";
     display: block;
     width: 12px;
@@ -53,25 +53,25 @@
     margin-bottom: 8px;
 }
 
-.bike p {
+.bikes p {
     margin-bottom: 32px;
 }
 
-.bike a {
+.bikes a {
     place-self: end;
 }
 
-.bike li {
+.bikes li {
     display: flex;
     align-items: center;
 }
 
-.bike ul {
+.bikes ul {
     display: grid;
     gap: 16px;
 }
 
-.bike-content img {
+.bikes-content img {
     width: 24px;
     margin-right: 8px;
 }
@@ -80,11 +80,11 @@
 
 @media (max-width: 800px) {
 
-    .bike-bg {
+    .bikes-bg {
         background: var(--cor-11);
     }
 
-    .bike {
+    .bikes {
         grid-template-columns: 1fr;
         gap: 20px;
         padding-top: 40px;
@@ -95,17 +95,17 @@
 /* ---- media querie 600px ---- */
 
 @media (max-width: 600px) {
-    .bike-content {
+    .bikes-content {
         grid-template-columns: 1fr;
     }
 
-    .bike ul {
+    .bikes ul {
         font-size: 1rem;
         grid-template-columns: 1fr 1fr;
         margin-bottom: 32px;
     }
 
-    .bike a {
+    .bikes a {
         place-self: start;
     }
 

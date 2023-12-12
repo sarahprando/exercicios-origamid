@@ -30,6 +30,10 @@
 
 @import url(../css/bike/bike.css);
 
+@import url(../css/bike/bike-interna.css);
+
+@import url(../css/bike/seguro.css);
+
 /* ---- insurance ---- */
 
 @import url(../css/insurance/insurance.css);
