@@ -28,6 +28,8 @@
 
 @import url(../css/bike/bike-list.css);
 
+@import url(../css/bike/bike.css);
+
 /* ---- insurance ---- */
 
 @import url(../css/insurance/insurance.css);
@@ -35,3 +37,4 @@
 /* ---- termos ---- */
 
 @import url(../css/termos/termos.css);
+
