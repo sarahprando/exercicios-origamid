@@ -15,6 +15,7 @@
         rel="stylesheet">
 
     <!-- links css -->
+    <link rel="preload" href="assents/css/style.css" as="style">
     <link rel="stylesheet" type="text/css" href="assents/css/style.css">
 
     <!-- favicon -->
@@ -31,7 +32,7 @@
     <header class="header-bg"><!-- header -->
         <div class="header container">
             <a href="#">
-                <img src="assents/img/bikcraft.svg" alt="Bikcraft">
+                <img src="assents/img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
             </a>
             <nav aria-label="primary">
                 <ul class="nav-header font-1-m cor-0">
@@ -54,9 +55,10 @@
                     sua velocidade com a Bikcraft.</p>
                 <a class="btn" href="bike.html">selecione a sua</a>
             </div>
-            <div class="intro-img">
-                <img src="assents/img/bicicletas/nimbus-home.jpg" alt="Bicicleta Nimbus Preta">
-            </div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="assents/img/bicicletas/nimbus.jpg">
+                <img src="assents/img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="Bicicleta Nimbus Preta">
+            </picture>
         </div>
     </main><!-- the end intro -->
 
@@ -65,21 +67,21 @@
         <ul>
             <li>
                 <a href="./bike/magic.html">
-                    <img src="assents/img/bicicletas/magic-home.jpg" alt="Bicicleta Preta">
+                    <img src="assents/img/bicicletas/magic-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Magic Might</h3>
                     <span class="font-2-m cor-8">R$ 2499</span>
                 </a>
             </li>
             <li>
                 <a href="bike/nimbus.html">
-                    <img src="assents/img/bicicletas/nimbus-home.jpg" alt="Bicicleta Preta">
+                    <img src="assents/img/bicicletas/nimbus-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Nimbus Stark</h3>
                     <span class="font-2-m cor-8">R$ 4999</span>
                 </a>
             </li>
             <li>
                 <a href="./bike/nebula.html">
-                    <img src="assents/img/bicicletas/nebula-home.jpg" alt="Bicicleta Preta">
+                    <img src="assents/img/bicicletas/nebula-home.jpg" width="920" height="1040" alt="Bicicleta Preta">
                     <h3 class="font-1-xl">Nebula Cosmic</h3>
                     <span class="font-2-m cor-8">R$ 3999</span>
                 </a>
@@ -98,13 +100,13 @@
                 <a class="link" href="./bike.html">ecolha um modelo</a>
                 <div class="tech-icons">
                     <div>
-                        <img src="assents/img/icones/eletrica.svg" alt="">
+                        <img src="assents/img/icones/eletrica.svg" width="24px" height="24px" alt="">
                         <h3 class="font-1-m cor-0">Motor Elétrico</h3>
                         <p class="font-2-s cor-5">Toda Bikcraft é equipada com um motor elétrico que possui duração de
                             até 120h. A bateria é recarregada com a sua energia gasta ao pedalar.</p>
                     </div>
                     <div>
-                        <img src="assents/img/icones/rastreador.svg" alt="">
+                        <img src="assents/img/icones/rastreador.svg" width="24px" height="24px" alt="">
                         <h3 class="font-1-m cor-0">Rastreador</h3>
                         <p class="font-2-s cor-5">Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
                             rastreadores e sistemas anti-furto para garantir o seu sossego.</p>
@@ -120,19 +122,19 @@
     <section class="partners" aria-label="partners"><!-- partners -->
         <h2 class="container font-1-xxl">nossos parceiros<span class="cor-p1">.</span></h2>
         <ul>
-            <li><img src="assents/img/parceiros/caravan.svg" alt="Caravan"></li>
-            <li><img src="assents/img/parceiros/ranek.svg" alt="Ranek"></li>
-            <li><img src="assents/img/parceiros/handel.svg" alt="Handel"></li>
-            <li><img src="assents/img/parceiros/dogs.svg" alt="Dogs"></li>
-            <li><img src="assents/img/parceiros/lescone.svg" alt="LeScone"></li>
-            <li><img src="assents/img/parceiros/flexblog.svg" alt="FlexBlog"></li>
-            <li><img src="assents/img/parceiros/wildbeast.svg" alt="Wildbeast"></li>
-            <li><img src="assents/img/parceiros/surfbot.svg" alt="Surfbot"></li>
+            <li><img src="assents/img/parceiros/caravan.svg" width="140" height="38px" alt="Caravan"></li>
+            <li><img src="assents/img/parceiros/ranek.svg" width="149" height="36px" alt="Ranek"></li>
+            <li><img src="assents/img/parceiros/handel.svg" width="139" height="50px" alt="Handel"></li>
+            <li><img src="assents/img/parceiros/dogs.svg" width="152" height="39px" alt="Dogs"></li>
+            <li><img src="assents/img/parceiros/lescone.svg" width="208" height="41px" alt="LeScone"></li>
+            <li><img src="assents/img/parceiros/flexblog.svg" width="165" height="38px" alt="FlexBlog"></li>
+            <li><img src="assents/img/parceiros/wildbeast.svg" width="196" height="34px" alt="Wildbeast"></li>
+            <li><img src="assents/img/parceiros/surfbot.svg" width="200" height="49px" alt="Surfbot"></li>
         </ul>
     </section><!-- the end partners -->
 
     <section class="reviews" aria-label="reviews"><!-- reviews -->
-        <div><img src="assents/img/fotos/depoimento.jpg" alt=""></div>
+        <div><img src="assents/img/fotos/depoimento.jpg" width="1560" height="1360" alt=""></div>
         <div class="reviews-content">
             <blockquote class="font-1-xl cor-p5">
                 <p>Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por
@@ -174,7 +176,7 @@
 
     <footer class="footer-bg"><!-- footer -->
         <div class="footer container">
-            <img src="assents/img/bikcraft.svg" alt="Bikcraft">
+            <img src="assents/img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
             <div class="footer-contact">
                 <h3 class="font-2-l-b cor-0">Contato</h3>
                 <ul class="font-2-m cor-5">
@@ -185,13 +187,13 @@
                 </ul>
                 <div class="footer-social">
                     <a href="./">
-                        <img src="assents/img/redes/instagram.svg" alt="Instagram">
+                        <img src="assents/img/redes/instagram.svg" width="32" height="32" alt="Instagram">
                     </a>
                     <a href="./">
-                        <img src="assents/img/redes/facebook.svg" alt="Facebook">
+                        <img src="assents/img/redes/facebook.svg" width="32" height="32" alt="Facebook">
                     </a>
                     <a href="./">
-                        <img src="assents/img/redes/youtube.svg" alt="Youtube">
+                        <img src="assents/img/redes/youtube.svg" width="32" height="32" alt="Youtube">
                     </a>
                 </div>
             </div>
