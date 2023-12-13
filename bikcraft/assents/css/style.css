@@ -2,10 +2,6 @@
 
 @import url(../css/global/global.css);
 
-@import url(../css/utilities/typography.css);
-
-@import url(../css/utilities/colors.css);
-
 @import url(../css/global/header.css);
 
 @import url(../css/global/footer.css);
@@ -13,6 +9,12 @@
 /* ---- components ---- */ 
 
 @import url(../css/utilities/components.css);
+
+@import url(../css/utilities/form.css);
+
+@import url(../css/utilities/typography.css);
+
+@import url(../css/utilities/colors.css);
 
 /* ---- home ---- */
 
@@ -41,6 +43,12 @@
 @import url(../css/insurance/vantagens.css);
 
 @import url(../css/insurance/perguntas.css);
+
+/* ---- contact ---- */
+
+@import url(../css/contact/contact.css);
+
+@import url(../css/contact/lojas.css);
 
 /* ---- termos ---- */
 
