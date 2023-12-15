@@ -10,7 +10,7 @@
 Alguns projetos realizados:
 <br>
  <a href="https://sarahprando.github.io/exercicios-origamid/portfolio/portfolio.html">Portfólio</a> 
- - <a href="https://sarahprando.github.io/exercicios-origamid/revisando/EX01.html">Bikecraft</a>
+ - <a href="https://sarahprando.github.io/exercicios-origamid/bikcraft/home.html">Bikecraft</a>
   </div>
 <br>
 <div style="display: inline_block" align="center"><br>
