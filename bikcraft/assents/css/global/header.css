@@ -36,8 +36,9 @@
     position: absolute;
 }
 
-.nav-header a:hover:after {
-    width: 100%;
+.nav-header a:hover::after,
+.nav-header a.ativo::after {
+  width: 100%;
 }
 
 /* ---- media querie 800px ---- */
