@@ -138,7 +138,7 @@
     align-items: center;
 }
 
-;.orcamento-detalhes li {
+.orcamento-detalhes li {
     display: flex;
     align-items: center;
     margin-bottom: 8px;
