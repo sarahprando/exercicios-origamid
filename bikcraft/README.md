@@ -9,5 +9,5 @@
 </div>
 
 <div style="display: inline_block" align="center"><br>
-  <img height="200" width="200" src="bikcraft/assents/img/favicon.svg">
+  <img height="200" width="200" src="assents/img/favicon.svg">
 </div>
