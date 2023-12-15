@@ -6,12 +6,38 @@
 
 .form label {
     display: block;
-    font: 400 1rem/1.5 'Poppins', sans-serif;
+    font: 600 1rem/1.5 'Poppins', sans-serif;
+    color: var(--cor-11);
     margin-bottom: 4px;
 }
 
 .form .col-2 {
     grid-column: span 2;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+}
+
+.form select {
+    font: 400 1rem/1.5 'Roboto', sans-serif;
+    background: var(--cor-1) url('../../img/icones/seta-select.svg')no-repeat bottom 20px right 10px;
+    border: 1px solid var(--cor-4);
+    padding: 12px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    color: var(--cor-7);
+}
+
+.form select:focus {
+    outline: none;
+    border-color: var(--cor-p1);
+    background: var(--cor-0) url('../../img/icones/seta-select.svg')no-repeat bottom 20px right 10px;
+    box-shadow: 0 0 0 2px #fea;
 }
 
 .form input[type="text"],
@@ -24,6 +50,7 @@
     border-radius: 4px;
     width: 100%;
     box-sizing: border-box;
+    color: var(--cor-7);
 }
 
 .form input[type="text"]:focus,
@@ -33,7 +60,24 @@
     border-color: var(--cor-p1);
     background: var(--cor-0);
     box-shadow: 0 0 0 2px #fea;
-} 
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    grid-column: 1/-1;
+}
+
+.checkbox input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.checkbox label,
+.checkbox input {
+    margin: 0;
+}
 
 /* ---- media querie 600px ---- */
 
