@@ -1,6 +1,6 @@
 ## <h1 align="center">Projeto Final - Bikcraft</h1>
 <p align="center">Projeto final do curso de HTML5 e CSS da Origamid. 
-  <a href="https://sarahprando.github.io/spotify/" target="_blank"> Link do projeto!!!</a></p>
+  <a href="https://sarahprando.github.io/exercicios-origamid/bikcraft/home.html" target="_blank"> Link do projeto!!!</a></p>
 
 <div style="display: inline_block" align="center"><br>
   <img alt="Sarah-HTML" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
