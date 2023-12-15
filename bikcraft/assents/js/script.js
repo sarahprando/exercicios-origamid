@@ -44,8 +44,8 @@ function eventosPerguntas(pergunta) {
 perguntas.forEach(eventosPerguntas);
 
 // Galeria de Bicicletas
-const galeria = document.querySelectorAll(".bicicleta-imagens img");
-const galeriaContainer = document.querySelector(".bicicleta-imagens");
+const galeria = document.querySelectorAll(".bike-img img");
+const galeriaContainer = document.querySelector(".bike-img ");
 
 function trocarImagem(event) {
   const img = event.currentTarget;
