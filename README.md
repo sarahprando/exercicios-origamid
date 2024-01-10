@@ -11,7 +11,6 @@ Alguns projetos realizados:
 <br>
  <a href="https://sarahprando.github.io/exercicios-origamid/portfolio/portfolio.html">Portfólio</a> 
  - <a href="https://sarahprando.github.io/exercicios-origamid/bikcraft/home.html">Bikecraft</a>
-   - <a href="https://sarahprando.github.io/app-orcamento-pessoal/assents/index.html">App Orçamento Pessoal</a>
   </div>
 <br>
 <div style="display: inline_block" align="center"><br>
