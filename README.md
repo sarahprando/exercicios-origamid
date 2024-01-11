@@ -1,4 +1,4 @@
-## <p align="center">HTML e CSS para Iniciantes<p>
+## <p align="center">Desenvolvimento Front-End<p>
 
 <div style="display: inline_block" align="center"><br>
   <img alt="Sarah-HTML" src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
@@ -11,6 +11,7 @@ Alguns projetos realizados:
 <br>
  <a href="https://sarahprando.github.io/exercicios-origamid/portfolio/portfolio.html">Portfólio</a> 
  - <a href="https://sarahprando.github.io/exercicios-origamid/bikcraft/home.html">Bikecraft</a>
+  - <a href="https://sarahprando.github.io/exercicios-origamid/wildbeast/index.html">Wildbeast</a>
   </div>
 <br>
 <div style="display: inline_block" align="center"><br>
